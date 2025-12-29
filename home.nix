@@ -36,6 +36,9 @@ in
     pkgs.htop
     pkgs.bat
     pkgs.fira-code
+    pkgs.graphviz
+    pkgs.just
+    pkgs.just-lsp
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
