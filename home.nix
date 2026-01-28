@@ -40,6 +40,7 @@ in
     pkgs.just
     pkgs.just-lsp
     pkgs.yq-go
+    pkgs.terraform-ls
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
