@@ -41,6 +41,7 @@ in
     pkgs.just-lsp
     pkgs.yq-go
     pkgs.terraform-ls
+    pkgs.nix-index
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -131,10 +132,11 @@ in
   #
   #  /etc/profiles/per-user/Z42437/etc/profile.d/hm-session-vars.sh
   #
-  home.sessionVariables = {
-    # helix makes sense as the default editor for anyone who doesn't 
-    # have a preference, since it's usable with minimal configuration and
-    # has lsp support out of the box.
+  
+  # helix makes sense as the default editor for anyone who doesn't 
+  # have a preference, since it's usable with minimal configuration and
+  # has lsp support out of the box.
+  home.sessionVariables = {  
     EDITOR = "hx";
     SHELL = "bash";
   };
