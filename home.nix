@@ -41,7 +41,8 @@ in
     pkgs.just-lsp
     pkgs.yq-go
     pkgs.terraform-ls
-    pkgs.nix-index
+    pkgs.nix-index-unwrapped
+    pkgs.direnv
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
