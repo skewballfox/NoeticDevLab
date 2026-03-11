@@ -23,6 +23,7 @@ in
     pkgs.fzf
     pkgs.gcc
     pkgs.nixd
+    pkgs.nixfmt-rfc-style
     pkgs.lua-language-server
     pkgs.rustup
     pkgs.zlib
@@ -43,6 +44,8 @@ in
     pkgs.terraform-ls
     pkgs.nix-index-unwrapped
     pkgs.direnv
+    pkgs.delta
+    pkgs.sonar-scanner-cli
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
