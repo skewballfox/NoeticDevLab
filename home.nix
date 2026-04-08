@@ -46,6 +46,9 @@ in
     pkgs.direnv
     pkgs.delta
     pkgs.sonar-scanner-cli
+    pkgs.awscli2
+    pkgs.k9s
+    pkgs.age
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
