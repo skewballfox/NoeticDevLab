@@ -49,6 +49,7 @@ in
     pkgs.awscli2
     pkgs.k9s
     pkgs.age
+    pkgs.sops
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
